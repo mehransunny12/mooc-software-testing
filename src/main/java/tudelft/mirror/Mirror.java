@@ -3,6 +3,7 @@ package tudelft.mirror;
 public class Mirror {
 
     public String mirrorEnds(String string) {
+        if (string==null) return null;
         String mirror = "";
 
         int begin = 0;
